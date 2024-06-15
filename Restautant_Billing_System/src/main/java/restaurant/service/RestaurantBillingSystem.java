@@ -28,7 +28,7 @@ public class RestaurantBillingSystem {
 	
 	public static void main(String[] args) {
 		initializeMenu();
-		
+		Order order=new Order();
 		Scanner scnRef=new Scanner(System.in);
 		
 		System.out.println("-----WELCOME TO THE LALIT RESTAURANT-----");
@@ -93,11 +93,13 @@ public class RestaurantBillingSystem {
 			scnRef.nextLine();
 			
 			//request order
-			
+			OrderItem orderItem=new OrderItem(selectedItem, quantity);
+			//order multiple order to list
+			order.addMultipleItems(orderItem);
 			System.out.println("Item added to the order.");
 		}
 		
-		
+		order.printInvoice();
 		scnRef.close();
 		
 	}

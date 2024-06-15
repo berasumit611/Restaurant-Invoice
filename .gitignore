@@ -38,6 +38,7 @@ release.properties
 .project
 .classpath
 
+
 # IntelliJ IDEA
 .idea/
 *.iml
