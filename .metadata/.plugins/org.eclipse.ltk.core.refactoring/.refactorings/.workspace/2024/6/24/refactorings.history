@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RestautantInvoiceV1&apos; to &apos;Restautant_Billing_System&apos;" description="Rename resource &apos;RestautantInvoiceV1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RestautantInvoiceV1" name="Restautant_Billing_System" stamp="1718452855302" updateReferences="true"/>
+</session>
