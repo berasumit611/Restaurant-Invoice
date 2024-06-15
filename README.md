@@ -2,4 +2,3 @@
  > V1 - DATE 15 JUNE 2024
  ### TECHNOLOGY
  - JAVA
- 
