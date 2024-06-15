@@ -4,6 +4,9 @@
 # Log files
 *.log
 
+# Ignore Eclipse .metadata directory
+*.metadata/
+
 # BlueJ files
 *.ctxt
 
