@@ -49,6 +49,6 @@ public class Order {
 	    }
 	    
 	    System.out.println("-------------------");
-	    System.out.printf("Total: %29.2f%n", getTotal());
+	    System.out.printf("Total: %33.2f%n", getTotal());
 	}
 }
